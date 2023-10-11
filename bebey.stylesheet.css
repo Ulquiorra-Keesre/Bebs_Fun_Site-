@@ -18,7 +18,7 @@ a:link {
 a:hover {
     color: crimson;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration:underline;
  }
 
  a:visited {
