@@ -1,5 +1,6 @@
  body {
-        background-color:linen;
+        background: linen;
+
     }
 h1 {
     color: white;
@@ -9,26 +10,30 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     }
-a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: dashed;
-}
 
-a:hover {
-    color: crimson;
-    background-color: transparent;
+a:link, a:visited {
+    color: white;
+    background-color: #870d0fe6;
     text-decoration:underline;
+    padding: 5px 5px;
+    margin: 2px;
+    text-align: center;
+    display: inline-block;
  }
 
- a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
- }
-
- a:active {
+ a:active, a:hover {
     color: yellow;
-    background-color:transparent;
+    background-color:red;
     text-decoration: underline;
   }
+
+  button {
+    background: linear-gradient(225deg, rgb(29, 149, 111) 70%, rgb(204, 22, 22)  80%  ,rgb(29, 149, 111) 90% );
+    color: black
+  }
+
+.divi {
+    padding: 2px 9px;
+     margin:1px;
+      display:inline-block
+}
